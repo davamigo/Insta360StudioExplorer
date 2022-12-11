@@ -1,6 +1,6 @@
 # Insta360 Studio Explorer
 
-Simple acript utility to scan Insta360 Studio projects, remove projectos and copy the properties from one project to another
+Simple script utility to scan Insta360 Studio projects, remove projectos and copy the properties from one project to another
 
 ## Tech stach
 
