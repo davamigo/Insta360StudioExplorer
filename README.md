@@ -30,17 +30,23 @@ php src\main.php C:\Users\User\Documents\Insta360\Studio\Project
 Shows all the projects in the Insta36 project folder
 
 
-```php src\main.php . -o```
+```
+php src\main.php . -o
+```
 
 Shows only the projects ttah the video files are present in the current folder.
 
 
-```php src\main.php . -k```
+```
+php src\main.php . -k
+```
 
 Shows only the projects ttah the video files are missing in the current folder.
 
 
-```php src\main.php -f "VID_20220619_081138"```
+```
+php src\main.php -f "VID_20220619_081138"
+```
 
 Shows the project that matches the filter.
 It searches for partial coincidences in the `projectId`, the video folder and the file names.
@@ -61,12 +67,14 @@ No responsibility is assumed for any damage that may be caused to Insta360 proje
 
 ### Copying the atributes from one projecto to another
 
-`php src\main.php -c 5d77d96ca48675594dbaf5bd987a8895 2f879a7b4eea986605420580d35130e3`
+```
+php src\main.php -c 5d77d96ca48675594dbaf5bd987a8895 2f879a7b4eea986605420580d35130e3
+```
 
-  Copy the attributes from the source proyect id=5d77d96ca48675594dbaf5bd987a8895 to the target project id=2f879a7b4eea986605420580d35130e3.
-  This action cannot be undone.
-  It is recommended to make a backup before trying.
-  No responsibility is assumed for any damage that may be caused to Insta360 projects.
+Copy the attributes from the source proyect id=5d77d96ca48675594dbaf5bd987a8895 to the target project id=2f879a7b4eea986605420580d35130e3.
+This action cannot be undone.
+It is recommended to make a backup before trying.
+No responsibility is assumed for any damage that may be caused to Insta360 projects.
 
 
 ## Disclaimer
