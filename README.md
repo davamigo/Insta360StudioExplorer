@@ -27,7 +27,7 @@ Options:
 php src\main.php C:\Users\User\Documents\Insta360\Studio\Project
 ```
 
-Shows all the projects in the Insta36 project folder
+Shows all the projects in the Insta360 project folder
 
 
 ```
